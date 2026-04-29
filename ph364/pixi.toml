@@ -1,0 +1,15 @@
+[workspace]
+authors = ["xspoole <xspoole@gmail.com>"]
+channels = ["conda-forge"]
+name = "ph364"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+sep = ">=1.4.1,<2"
+matplotlib = ">=3.10.9,<4"
+numpy = ">=2.4.3,<3"
+astropy = ">=7.2.0,<8"
